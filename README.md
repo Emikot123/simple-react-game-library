@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Simple React Game Library App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="/assets/image.png" alt=""/>
 
 ## Available Scripts
 
