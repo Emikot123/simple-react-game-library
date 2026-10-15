@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Fira Sans';
+}
+.clear{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 8px solid darkred;
+}
+
+.add{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 8px solid darkgreen;
+}
+
+.top button{
+    border-radius: 10px;
+    gap: 50px;
+    padding: 58px 70px;
+    margin-left: 40px;
+    margin-top:30px;
+    cursor: pointer;
+}
+.add:hover{
+    background-color: #006400;
+    border: 8px solid #004300;
+
+}
+.clear:hover{
+    background-color: #c00000;
+    border: 8px solid #570000;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #ffbb7b;
+    height: 100%;
+    border-radius: 10px;
+    border: 8px solid #ff9e4b;
+}
+
+
+.dashboard{
+    background-color: #ffbb7b;
+    border: 8px solid #ff9e4b;
+    margin-left: 35px;
+    padding: 26px;
+    border-radius: 10px;
+    color: #4a2c16;
+}
+.gamenameDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.gamenameDiv input{
+    margin-left: 21px;
+    border: 3px solid #4a2c16;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.range{
+    display: flex;
+    flex-direction: row;
+}
+.range p{
+    font-size: 20px;
+
+}
+.range input{
+    margin-left: 21px;
+}
+
+.commentDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+.commentDiv textarea{
+    width: 100%;
+    height: 88px;
+    margin-top:20px;
+    border: 3px solid #4a2c16;
+    border-radius: 10px;
+}
+
+.dashboard button{
+    height: 0px;
+    width: 100%;
+    margin-left: 0;
+    border: 3px solid #4a2c16;
+    background-color: #ffe8d9;
+}
+.dashboard button:hover{
+    background-color: #ffcca8;
+}
+.error{
+    color: red;
+}
+
+.games li{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border: 8px solid #532400;
+    margin-right: 20px;
+    background-color: #ffd4ad;
+}
+.titles{
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #4a2c16;
+}
+.ratings{
+    margin-left: 20px;
+    color: #4a2c16;
+    font-size: 30px;
+}
+.comments{
+    margin-left: 20px;
+    color: #4a2c16;
+    font-size: 30px;
+}
